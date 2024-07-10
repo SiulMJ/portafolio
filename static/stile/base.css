@@ -1,0 +1,119 @@
+.tarjeta li{
+    vertical-align: top;
+    display: inline;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+.navbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    font-family: 'arial';
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #808080;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+}
+
+.navbar li a:hover {
+    background-color: white;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;  
+    height: auto;  
+    border-radius: 50%;
+}
+
+.sobremi h2{
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049; /* Color al pasar el mouse */
+}
+
+.sobremi{
+    margin-bottom: 50px;
+}
+
+.texto {
+    align-items: center;
+    width: 650px;
+    margin: auto;
+}
+
+.tecnologias h2{
+    text-align: center;
+}
+
+.tecnologias{
+    margin-bottom: 50px;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+
+.tarjeta{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2,p{
+    font-family: 'arial';
+}
+
+body{
+    background-color: #BcBcBc;
+}
+
+.tarjeta img{ 
+    height: 64px;
+    width: 70px;
+    box-shadow: 5px 10px 10px gray;
+}
