@@ -26,7 +26,6 @@
     text-decoration: none;
 }
 
-
 .container {
     display: flex;
     gap: 20px;
@@ -35,16 +34,27 @@
 }
 
 .card {
-    background-color: #808080;
+    background-color: #BcBcBc;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     padding: 20px;
     width: 300px;
     margin: 10px;
 }
 
+.identificador h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    margin-left: 70px;
+    width: 80%;
+}
+
 .navbar li a:hover {
-    background-color: white;
+    background-color: #BcBcBc;
 }
 
 .imagen {
@@ -58,6 +68,21 @@
 
 .sobremi h2{
     text-align: center;
+}
+
+.habilidades {
+    align-items: center;
+    width: 700px;
+    margin: auto;  
+    margin-bottom: 50px; 
+}
+
+.habilidades h2{
+    text-align: center;
+}
+
+.habilidades ul{
+    font-family: arial;
 }
 
 button {
@@ -75,7 +100,7 @@ button a {
 }
 
 button:hover {
-    background-color: #45a049; /* Color al pasar el mouse */
+    background-color: #45a049;
 }
 
 .sobremi{
@@ -104,16 +129,51 @@ button:hover {
     margin-bottom: 100px;
 }
 
-h2,p{
+h2,p,ul{
     font-family: 'arial';
 }
 
+
+.descrpcion {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.descrpcion h2 {
+    margin-top: 0;
+}
+
+.descrpcion p {
+    margin: 10px 0;
+}
+
+.descrpcion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.descrpcion ul li {
+    margin: 5px 0;
+}
+
+.descrpcion a {
+    text-decoration: none;
+}
+
+.descrpcion a:hover {
+    text-decoration: underline;
+}
+
 body{
-    background-color: #BcBcBc;
+    background-color: #808080;
 }
 
 .tarjeta img{ 
     height: 64px;
     width: 70px;
-    box-shadow: 5px 10px 10px gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }

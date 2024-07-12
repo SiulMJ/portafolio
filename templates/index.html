@@ -21,7 +21,7 @@
             <img src="{{ url_for('static', filename='image/yo.jpeg') }}" class="imagen">
         </div>
         <div class="texto">
-            <h2>Soy Luis Mondragón</h2>
+            <h2>Soy Luis Mondragon</h2>
             <hr size="2px" color="black" />
             <p>Me apasiona la tecnología en general y especialmente la programación. 
                 Todos los días me esfuerzo por mejorar y aprender más sobre todas las ramas de la tecnología. 
@@ -34,7 +34,7 @@
 
 
 <div class="tecnologias">
-    <h2>Tecnologias</h2>
+    <h2>Tecnologías</h2>
     <hr size="2px" color="black"/>
     <ul class="tarjeta">
         <li><a href="https://flask.palletsprojects.com/en/3.0.x/"><img src="{{ url_for('static', filename='image/flask.png')}}"></a></li>
@@ -60,28 +60,32 @@
     </p>
 </div>
 
-    <div class="container">
-        <div class="card">
-            <h2>Escuela</h2>
-            <p><strong>ING. Desarrollo y gestión de software</strong><br>
-            Universidad Tecnológica de Tabasco<br>
-            2019-2022</p>
+<div class="container">
+    <div class="identificador">
+        <h2>Educación</h2>
+        <hr size="2px" color="black"/>
+        <div class="card-container">
+            <div class="card">
+                <h2>Escuela</h2>
+                <p><strong>ING. Desarrollo y gestión de software</strong><br>
+                Universidad Tecnológica de Tabasco<br>
+                2019-2022</p>
 
-            <p><strong>TSU en Tecnologías de la Información y Comunicación</strong><br>
-            Área Desarrollo de Software Multiplataforma<br>
-            Universidad Tecnológica de Tabasco<br>
-            2022-2024</p>
-        </div>
+                <p><strong>TSU en Tecnologías de la Información y Comunicación</strong><br>
+                Área Desarrollo de Software Multiplataforma<br>
+                Universidad Tecnológica de Tabasco<br>
+                2022-2024</p>
+            </div>
 
-        <div class="card">
-            <h2>Cursos</h2>
-            <p><strong>Curso de SQLite</strong><br>
-            Víctor Ramos - Udemy</p>
+            <div class="card">
+                <h2>Cursos</h2>
+                <p><strong>Curso de SQLite</strong><br>
+                Víctor Ramos - Udemy</p>
 
-            <p><strong>Python sin Límites</strong><br>
-            Global Mentoring Ing. Ubaldo Acosta - Udemy</p>
+                <p><strong>Python sin Límites</strong><br>
+                Global Mentoring Ing. Ubaldo Acosta - Udemy</p>
+            </div>
         </div>
     </div>
-
-
+</div>
 {% endblock %}
