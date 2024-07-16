@@ -1,6 +1,6 @@
 {%extends 'base.html'%}
 
-{% block title %} Tranajos {% endblock %}
+{% block title %} Trabajos {% endblock %}
 
 {% block link %}
 <link rel="stylesheet" href="{{ url_for('static', filename='stile/base.css')}}">
@@ -9,10 +9,35 @@
 {% block content %}
 <div class="contenido">
     <h2>Trabajos</h2>
-    <p>Estos son algunos trabajos que eh realizado:</p>
+    <p>puedes acceder a mi github mediante este boton o ver mis trabajos en esta página</p>
+    <button><a href="https://github.com/SiulMJ">github</a></button>
 </div>
 
-<div class="">
+<div class="trabajos">
+    <div class="card-trabajos">
+        <h2>Chat</h2>
+        <p>Proyecto back-end de un chat, para la comunicacion entre trabajadores</p>
+        <h3>Tecnologias</h3>
+        <p>JavaScript, Node.js, NPM</p>
+        <button><a href="https://github.com/SiulMJ/chat_websocket/tree/luis">chat</a></button>
+    </div> 
 
+    <div class="card-trabajos">
+        <h2>paginalonas</h2>
+        <img class="image" src="{{ url_for('static', filename='image/paginalonas.png')}}">
+        <p>Proyecto creado para una empresa de venta de lonas y articulos elaborados con las mismas</p>
+        <h3>Tecnologias</h3>
+        <p>Php, Html, Css, JavaScript</p>
+        <button><a href="https://github.com/SiulMJ/paginalonas">pagina web</a></button>
+    </div>
+
+    <div class="card-trabajos">
+        <h2>portafolio</h2>
+        <img class="image" src="{{ url_for('static', filename='image/portafolio.png')}}">
+        <p>mi portafolio de trabajo</p>
+        <h3>Tecnologias</h3>
+        <p>Python, Flask, Html, Css</p>
+        <button><a href="https://github.com/SiulMJ/portafolio">portafolio</a></button>
+    </div> 
 </div>
 {% endblock %}
