@@ -54,6 +54,12 @@
     text-align: center;
 }
 
+.icono {
+    height: 64px;
+    width: 64px;
+    border-radius: 10%;
+}
+
 .trabajos h2, h3{
     text-align: center;
 }
