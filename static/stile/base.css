@@ -26,28 +26,10 @@
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    background-color: #BcBcBc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    padding: 20px;
-    width: 300px;
-    margin: 10px;
-}
-
 .trabajos{
-    justify-content: space-around;
-    display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .trabajos p{
@@ -70,7 +52,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     padding: 20px;
     width: 300px;
-    margin: auto;
+    justify-content: center;
 }
 
 .identificador h2 {
@@ -78,10 +60,27 @@
     text-align: center;
 }
 
+.container {
+    align-items: center;
+    width: 700px;
+    margin: auto; 
+    display:flex;
+}
+
 .card-container {
     display: flex;
-    margin-left: 70px;
-    width: 80%;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%;
+}
+
+.card {
+    background-color: #BcBcBc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
 }
 
 .navbar li a:hover {
@@ -163,6 +162,7 @@ button:hover {
 .tarjeta{
     text-align: center;
     margin-bottom: 100px;
+    margin-right: 80px;
 }
 
 h2,p,ul,h3{
