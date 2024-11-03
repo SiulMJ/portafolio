@@ -5,14 +5,18 @@ body, h1, p {
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     text-align: center;
+}
+
+h1, h2, p {
+    font-family: "Kanit", sans-serif ;    
 }
 
 body {
     background-color: #333;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #fff; /* Cambiado a blanco para mejor contraste */
     line-height: 1.6;
 }
 
@@ -21,10 +25,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 40px 20px; /* Aumenta el padding para darle más espacio */
-    background-color: #9c9c9c;
-    margin: 0; /* Elimina el margen para que se extienda a todo el ancho */
-    border-radius: 0; /* Elimina el borde redondeado */
+    padding: 40px 20px; 
+    background-color: rgba(156, 156, 156, 0.9); /* Usar rgba para transparencia */
+    margin: 0; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -34,20 +37,20 @@ body {
 }
 
 .presentation h1 {
-    font-size: 2.5em; /* Aumenta el tamaño de fuente */
+    font-size: 2.5em; 
     margin: 20px 0;
     color: #00fff2;
 }
 
 .presentation p {
     color: #fff;
-    font-size: 1.2em; /* Aumenta el tamaño de fuente para la descripción */
+    font-size: 1.2em; 
 }
 
 .aboutme, .proyect, .tech {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #9c9c9c;
+    background-color: rgba(156, 156, 156, 0.8); /* Usar rgba para transparencia */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -74,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: #4ca3af;
+    background-color: #5ab7c2; /* Cambiado a un color más claro al pasar el ratón */
 }
 
 button a {
@@ -84,35 +87,14 @@ button a {
 
 footer {
     background-color: #9c9c9c;
-    padding: 20px 0; /* Espacio alrededor del contenido del footer */
+    padding: 20px 0; 
     text-align: center;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Separación entre el contenido principal y el footer */
+    margin-top: 20px; 
 }
 
-footer button {
-    margin: 0 10px;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold; /* Hacer el texto más prominente */
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-.tech img {
-    max-width: 150px;
-    margin: 10px;
-    border-radius: 5px;
-    transition: transform 0.3s;
-}
-
-.proyect img {
-    max-width: 300px;
+.tech img, .proyect img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
     margin: 10px;
     border-radius: 5px;
     transition: transform 0.3s;
@@ -124,21 +106,21 @@ footer a:hover {
 
 /* Lightbox Styles */
 .lightbox {
-    display: none; /* Oculto por defecto */
+    display: none; 
     position: fixed;
-    z-index: 1000; /* Aparece por encima de todo */
+    z-index: 1000; 
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    background-color: rgba(0, 0, 0, 0.8); 
     justify-content: center;
     align-items: center;
 }
 
 .lightbox-content {
-    max-width: 90%; /* Limita el ancho de la imagen */
-    max-height: 90%; /* Limita la altura de la imagen */
+    max-width: 90%; 
+    max-height: 90%; 
 }
 
 .close {
@@ -151,7 +133,6 @@ footer a:hover {
     cursor: pointer;
 }
 
-
 /* Responsive design */
 @media (max-width: 600px) {
     .presentation img {
@@ -160,5 +141,13 @@ footer a:hover {
 
     .proyect img, .tech img {
         max-width: 80px;
+    }
+
+    .presentation h1 {
+        font-size: 1.8em; /* Ajustar tamaño de texto en pantallas pequeñas */
+    }
+
+    .presentation p {
+        font-size: 1em; /* Ajustar tamaño de texto en pantallas pequeñas */
     }
 }
