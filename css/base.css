@@ -15,8 +15,8 @@ h1, h2, p {
 
 body {
     background-color: #333;
-    font-family: "Open Sans", serif
-    color: #fff; /* Cambiado a blanco para mejor contraste */
+    font-family: "Open Sans", serif;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -59,7 +59,7 @@ body {
 .aboutme h1, .proyect h1, .tech h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #00fff2;
+    color: #ffffff;
 }
 
 .aboutme p {
